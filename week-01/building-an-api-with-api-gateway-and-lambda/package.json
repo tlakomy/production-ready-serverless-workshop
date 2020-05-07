@@ -10,6 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "serverless": "^1.69.0"
+    "aws-sdk": "^2.670.0",
+    "axios": "^0.19.2",
+    "mustache": "^4.0.1",
+    "serverless": "^1.69.0",
+    "serverless-export-env": "^1.2.0",
+    "serverless-pseudo-parameters": "^2.5.0"
   }
 }

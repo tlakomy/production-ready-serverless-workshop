@@ -541,7 +541,7 @@ atob@^2.1.2:
   resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha1-bZUX654DDSQ2ZmZR6GvZ9vE1M8k=
 
-aws-sdk@^2.665.0:
+aws-sdk@^2.665.0, aws-sdk@^2.670.0:
   version "2.670.0"
   resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/aws-sdk/-/aws-sdk-2.670.0.tgz#d54d18b9245df7b89bea96102e5bdebd99587701"
   integrity sha1-1U0YuSRd97ib6pYQLlvevZlYdwE=
@@ -638,7 +638,7 @@ blob@0.0.5:
   resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/blob/-/blob-0.0.5.tgz#d680eeef25f8cd91ad533f5b01eed48e64caf683"
   integrity sha1-1oDu7yX4zZGtUz9bAe7UjmTK9oM=
 
-bluebird@^3.7.2:
+bluebird@^3.5.1, bluebird@^3.7.2:
   version "3.7.2"
   resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha1-nyKcFb4nJFT/qXOs4NvueaGww28=
@@ -2965,7 +2965,7 @@ lie@~3.3.0:
   dependencies:
     immediate "~3.0.5"
 
-lodash@4.17.x, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.8.0:
+lodash@4.17.x, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.5, lodash@^4.8.0:
   version "4.17.15"
   resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
@@ -3193,6 +3193,11 @@ ms@^2.1.1:
   version "2.1.2"
   resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=
+
+mustache@^4.0.1:
+  version "4.0.1"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/mustache/-/mustache-4.0.1.tgz#d99beb031701ad433338e7ea65e0489416c854a2"
+  integrity sha1-2ZvrAxcBrUMzOOfqZeBIlBbIVKI=
 
 mute-stream@0.0.7:
   version "0.0.7"
@@ -4040,6 +4045,19 @@ semver@^7.3.2:
   version "7.3.2"
   resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/semver/-/semver-7.3.2.tgz#604962b052b81ed0786aae84389ffba70ffd3938"
   integrity sha1-YElisFK4HtB4aq6EOJ/7pw/9OTg=
+
+serverless-export-env@^1.2.0:
+  version "1.2.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/serverless-export-env/-/serverless-export-env-1.2.0.tgz#7be50e5c7932ffa988ff66d718f2336fc93c105f"
+  integrity sha1-e+UOXHky/6mI/2bXGPIzb8k8EF8=
+  dependencies:
+    bluebird "^3.5.1"
+    lodash "^4.17.5"
+
+serverless-pseudo-parameters@^2.5.0:
+  version "2.5.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/serverless-pseudo-parameters/-/serverless-pseudo-parameters-2.5.0.tgz#f30bf34db166e4b8b22144a8e65aca71b90dd1e6"
+  integrity sha1-8wvzTbFm5LiyIUSo5lrKcbkN0eY=
 
 serverless@^1.69.0:
   version "1.69.0"
